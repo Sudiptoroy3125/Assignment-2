@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Mulish", sans-serif;
+}
+/* nav releated styles */
+nav{
+    margin-bottom: 30px;
+}
+.nav-container{
+    display: flex;
+    position: relative;
+    max-width: 1160px;
+    margin: auto;
+}
+.nav-title{
+    display: flex;
+}
+.nav-title > img{
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 14px;
+    width: 48px;
+    height: 56.008px;
+}
+.Travel{
+    color: #FF5400;;
+}
+.nav-title > h1 > a{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #131318;
+}
+.nav-options > a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-options{
+    position: absolute;
+    left: 52%;
+    top: 40%;
+}
+.Home{
+    color: #FF5400;
+}
+.contact{
+    margin: 0px;
+}
+/* header releated styles */
+.banner > img{
+    width: 1160px;
+    height: 500px;
+    border-radius: 16px;
+}
+.banner{
+    max-width: 1160px;
+    margin: auto;
+}
+.bg-linear{
+    border-radius: 16px;
+    position: absolute;
+    background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.486)),
+    url('images/background.jpg');
+    width: 1160px;
+    height: 500px;
+    background-size: cover;
+}
+.inputs{
+    width: 900px;
+    height: 100px;
+    border-radius: 8px;
+    background-image: rgba(255, 255, 255, 0.342);
+}
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.inputs{
+    background-color: #fff4f449;
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.inputs > input{
+    margin: 10px;
+    margin-right: 24px;
+    border: none;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+.inputs > button{
+    cursor: pointer;
+    border: none;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
+.banner{
+    position: relative;
+}
+.banner-element{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 12%;
+}
+.banner-description{
+    margin-bottom: 50px;
+}
